@@ -1,4 +1,4 @@
-package cn.temptation.domain;
+package gz5.projmgt.domain;
 
 public class User {
 	private Integer userid;
