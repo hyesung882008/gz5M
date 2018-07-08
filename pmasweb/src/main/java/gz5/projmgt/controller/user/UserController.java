@@ -1,4 +1,4 @@
-package cn.temptation.controller;
+package gz5.projmgt.controller.user;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
@@ -19,6 +19,7 @@ public class UserController {
 
     @RequestMapping("/view")
     public String view() {
+    	int a=1/0;
         return "/login";
     }
 
